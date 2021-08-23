@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Fjalla+One&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 225, 219);
+  color: rgb(168, 25, 0);
+  font-family: "EB Garamond", serif;
+  /* font-family: "Fjalla One", sans-serif; */
+}
+
+header {
+  padding: 0.75rem 1.25rem;
+  border-bottom: thin solid tomato;
+  background-color: rgb(255, 225, 219);
+  color: rgb(168, 25, 0);
+}
+nav {
+  padding: 0.75rem 1.25rem;
+  border-bottom: thin solid tomato;
+  background-color: rgb(255, 225, 219);
+  color: rgb(168, 25, 0);
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+}
+.text:hover {
+  color: rgb(255, 225, 219);
+  background-color: rgb(168, 25, 0);
+}
+h2 {
+  text-align: center;
+  background-color: rgb(241, 205, 183);
+}
+p,
+Address {
+  padding: 0.75rem 1.25rem;
+}
+h4 {
+  background-color: rgb(241, 205, 183);
+}
+.home,
+.aboutus {
+  border-bottom: thin solid tomato;
+}
+/* .lists {
+  display: flex;
+  justify-content: space-around;
+  font-size: larger;
+  font-weight: bold;
+} */
+
+ul {
+  display: inline-block;
+  /* border: thin solid tomato; */
+}
+.phone {
+  background-color: rgb(168, 25, 0);
+  color: rgb(255, 225, 219);
+  font-size: medium;
+}
+form {
+  border: thin solid tomato;
+  padding: 0.75rem 1.25rem;
+  text-align: center;
+}
+#submit {
+  background-color: tomato;
+  color: rgb(255, 225, 219);
+  padding: 4px;
+  border-radius: 4px;
+  outline: none;
+  font-size: 20px;
+}
+
+#submit:hover {
+  color: tomato;
+  background-color: rgb(188, 229, 153);
+}
+footer {
+  text-align: center;
+}
+.lists {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box {
+  border: thin solid tomato;
+  display: inline-block;
+}
